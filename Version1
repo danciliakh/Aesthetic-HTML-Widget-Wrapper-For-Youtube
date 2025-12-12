@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+    body {
+        margin: 0;
+        background: #f5f2ee; /* replace with your brand color */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        font-family: 'Inter', sans-serif;
+    }
+
+    .widget-container {
+        width: 380px;
+        height: 220px;
+        background: white;
+        border-radius: 20px;
+        box-shadow: 0 10px 25px rgba(0,0,0,0.12);
+        padding: 12px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .widget-title {
+        font-weight: 600;
+        font-size: 16px;
+        color: #5a4b45; /* palette color */
+        text-align: center;
+    }
+
+    iframe {
+        width: 100%;
+        height: 160px;
+        border: none;
+        border-radius: 16px;
+    }
+</style>
+</head>
+<body>
+<div class="widget-container">
+    <div class="widget-title">✨ Devotional Playlist ✝️</div>
+    <iframe src="https://www.youtube.com/embed?list=YOUR_PLAYLIST_ID"></iframe>
+</div>
+</body>
+</html>
